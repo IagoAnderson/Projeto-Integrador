@@ -1,4 +1,0 @@
-#include <Servo.h>
-
-Servo Servogarra;
-

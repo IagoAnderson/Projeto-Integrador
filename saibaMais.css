@@ -47,24 +47,19 @@ nav{
 .navbar:hover:after{
     width: 100px;
 
-
 }
 
 #logo{
-    text-decoration: none;
-    display: flex;
+    width: 5vw;
+    height: auto;
 }
 
-.logo:hover{
-    color: white;
-    transition: 0.3s;
-}
 .texto{
     margin-left: 17%;
     margin-right: 1rem;
     background-color:rgb(247, 247, 247);
     width: 70vw;
-    height: 1812px;
+    height: 1430px;
 
 }
 
@@ -78,7 +73,6 @@ nav{
 .rec{
     position: absolute;
     top: 200px;
-    margin-left: 17%;
     width: 67vw;
     padding: 1rem;
     font-size: 20px;
@@ -86,24 +80,25 @@ nav{
 
 #rec1{
     text-decoration: none;
-    background-color: white;
+    list-style: none;
     position: absolute;
     margin-left: 3%;
     width: 17vw;
     padding: 1rem;
-    padding-bottom: 195px;
+    padding-bottom: 150px;
     border: blue 2px solid;
+    color: black;
 }
 
 #rec2{
     text-decoration: none;
-    background-color: white;
     position: absolute;
     margin-left: 34.2%;
     width: 17vw;
     padding: 1rem;
-    padding-bottom: 217px;
+    padding-bottom: 230px;
     border: blue 2px solid;
+    color: black;
 }
 
 #rec3{
@@ -113,89 +108,51 @@ nav{
     margin-left: 65%;
     width: 17vw;
     padding: 1rem;
-    padding-bottom: 217px;
+    padding-bottom: 207px;
     border: blue 2px solid;
+    color: black;
 }
 
 #rec4{
     text-decoration: none;
     background-color: white;
     position: absolute;
-    top: 300px;
+    top: 380px;
     margin-left: 3%;
     width: 17vw;
     padding: 1rem;
-    padding-bottom: 195px;
+    padding-bottom: 216px;
     border: blue 2px solid;
+    color: black;
 }
 
 #rec5{
     text-decoration: none;
     background-color: white;
     position: absolute;
-    top: 300px;
+    top: 380px;
     margin-left: 34.2%;
     width: 17vw;
     padding: 1rem;
     padding-bottom: 217px;
     border: blue 2px solid;
+    color: black;
 }
 
 #rec6{
     text-decoration: none;
     background-color: white;
     position: absolute;
-    top: 300px;
+    top: 380px;
     margin-left: 65%;
     width: 17vw;
     padding: 1rem;
-    padding-bottom: 217px;
+    padding-bottom: 195px;
     border: blue 2px solid;
+    color: black;
 }
 
-#parceiros{
-    position: absolute;
-    top: 850px;
-    margin-left: 20vw;
-    width: 42vw;
-    font-size: 25px;
-}
 
-#volei{
-    text-decoration: none;
-    background-color: white;
-    position: absolute;
-    top: 750px;
-    margin-left: 3%;
-    width: 17vw;
-    padding: 1rem;
-    padding-bottom: 40px;
-    border: blue 2px solid;
-}
-
-#ciclismo{
-    text-decoration: none;
-    background-color: white;
-    position: absolute;
-    top: 750px;
-    margin-left: 34.2%;
-    width: 17vw;
-    padding: 1rem;
-    padding-bottom: 40px;
-    border: blue 2px solid;   
-}
-
-#risco{
-    text-decoration: none;
-    background-color: white;
-    position: absolute;
-    top: 750px;
-    margin-left: 65%;
-    width: 17vw;
-    padding: 1rem;
-    padding-bottom: 40px;
-    border: blue 2px solid;
-}
 #reftit{
     position: absolute;
     top: 1050px;
@@ -267,5 +224,156 @@ nav{
     border: blue 2px solid;
 }
 
+#titsn{
+    position: absolute;
+    top: 2100px;
+    width: 170px;
+    margin-left: 31%;
+    font-size: 32px;
+    
+}
+#p1{
+    position: absolute;
+    top: 2300px;
+    width: 240px;
+    height: 240px;
+    border-radius: 200px;
+    margin-left: 1%;   
+    padding: 1vw;
+}
+
+#p2{
+    position: absolute;
+    top: 2300px;
+    width: 240px;
+    height: 240px;
+    border-radius: 200px;
+    padding: 1vw;
+    margin-left: 27%;
+}
+
+#p3{
+    position: absolute;
+    top: 2300px;
+    width: 240px;
+    height: 240px;
+    border-radius: 200px;
+    padding: 1vw;
+    margin-left: 52%;
+}
+#pt1{
+    position: absolute;
+    top: 2600px;
+    width: 160px;
+    margin-left: 5%;
+    font-size: 22px;
+}
+#pt2{
+    position: absolute;
+    top: 2600px;
+    width: 160px;
+    margin-left: 31%;
+    font-size: 22px;
+}
+#pt3{
+    position: absolute;
+    top: 2600px;
+    width: 160px;
+    margin-left: 56%;
+    font-size: 22px;
+}
+
+#descricao{
+    position: absolute;
+    top: 2700px;
+    width: 58vw;
+    margin-left: 5%;
+    font-size: 20px;
+    
+}
+footer{
+    background-color: #ecf6bb ;
+    display: flex;
+    text-decoration: none;
+    opacity: 0.7;
+    position: absolute;
+    top: 2900px;
+    height: 15vw;
+    width: 100vw;
+}
+
+#lg{
+    width: 10vw;
+    height: auto;
+    margin-left: 47.2vw;
+}
+.H{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+#H {
+    position: absolute;
+    margin-top: auto;
+    margin-left: 43.7vw;
+    margin-top: 5vw;
+}
+.SM{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+#SM {
+    position: absolute;
+    margin-top: auto;
+    margin-left: 47.15vw;
+    margin-top: 5vw;
+}
+.R{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+#R{
+    position: absolute;
+    margin-top: auto;
+    margin-left: 53.7vw;
+    margin-top: 5vw;
+}
+
+#Email{
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: -13vw;
+    width: 3vw;
+}
+
+#Wtt {
+    position: absolute;
+    margin-top: 7.5vw;
+    margin-left: -6.8vw;
+    width: 3vw;
+}
+
+#Yt {
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: -1vw;
+    width: 3vw;
+}
+
+#IFC{
+    position: absolute;
+    width: 10vw;
+    height: auto;
+    margin-left: -10.4vw;
+    margin-top: 10.7vw;
+}
+#©{
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: 14vw;
+}
 
 

@@ -85,7 +85,7 @@ nav{
     margin-left: 3%;
     width: 17vw;
     padding: 1rem;
-    padding-bottom: 150px;
+    padding-bottom: 207px;
     border: blue 2px solid;
     color: black;
 }
@@ -173,7 +173,7 @@ nav{
     top: 1150px;
     width: 59vw;
     padding: 1rem;
-    height: 100px;
+    height: 120px;
     padding-bottom: 40px;
     border: blue 2px solid;
 }
@@ -184,7 +184,7 @@ nav{
     top: 1350px;
     width: 59vw;
     padding: 1rem;
-    height: 100px;
+    height: 120px;
     padding-bottom: 40px;
     border: blue 2px solid;
 }
@@ -196,18 +196,7 @@ nav{
     top: 1550px;
     width: 59vw;
     padding: 1rem;
-    height: 100px;
-    padding-bottom: 40px;
-    border: blue 2px solid;
-}
-#pagdoencas{
-    background-color: white;
-    position: absolute;
-    margin-left: 4%;
-    top: 1750px;
-    width: 59vw;
-    padding: 1rem;
-    height: 100px;
+    height: 300px;
     padding-bottom: 40px;
     border: blue 2px solid;
 }
@@ -219,14 +208,19 @@ nav{
     top: 1950px;
     width: 59vw;
     padding: 1rem;
-    height: 100px;
+    height: 150px;
     padding-bottom: 40px;
     border: blue 2px solid;
 }
 
+#refes{
+    color: black;
+    width: 26vw;
+}
+
 #titsn{
     position: absolute;
-    top: 2100px;
+    top: 2150px;
     width: 170px;
     margin-left: 31%;
     font-size: 32px;
